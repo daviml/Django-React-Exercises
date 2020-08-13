@@ -8,4 +8,4 @@ def index(request):
 
 def help(request):
     helpdict = {'help_insert':'HELP PAGE'}
-    return render(request, 'apptwo/help.html'context=helpdict)
+    return render(request, 'appTwo/help.html'context=helpdict)
